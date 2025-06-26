@@ -6,7 +6,7 @@ public class Main {
         // גרף לדוגמה A=0, B=1, C=2, D=3
         DAGPathCounter.Graph g = new DAGPathCounter.Graph(4);
         g.addEdge(0, 1); // A -> B
-        g.addEdge(0, 2); // A -> C
+        //g.addEdge(0, 2); // A -> C
         g.addEdge(1, 3); // B -> D
         g.addEdge(2, 3); // C -> D
         g.addEdge(1, 2); // B -> C
